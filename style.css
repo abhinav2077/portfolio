@@ -95,10 +95,32 @@ html, body {
     align-items: center;
     justify-content: space-between;
 }
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    height: 100vh;
+    width: 100%;
+    padding: 2vw 2vw;
+    gap: 20px;
+    background-color: rgba(114, 114, 114, 0.297);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.menu{
+    margin-left: 30px;
+    display: none;
+}
 .home{
     text-decoration: none;
     color: #ffffff;
-    margin-left: 0px;
+    margin-left: 30px;
     display: inline-block;
     position: relative;
     font-family: neuelit;
@@ -673,6 +695,7 @@ html, body {
 }
 .img_33{
     height: 360px;
+    width: 29vw;
 }
 .block_34{
     width: 70%;
@@ -692,7 +715,7 @@ html, body {
     color: rgb(147, 120, 216);
     font-family: modern;
     line-height: 3vw;
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: 900;
 }
 .button_34{
@@ -743,6 +766,7 @@ html, body {
 }
 .img_34{
     height: 360px;
+    width: 29vw;
 }
 .block_35{
     width: 70%;
@@ -814,6 +838,7 @@ html, body {
 }
 .img_35{
     height: 360px;
+    width: 29vw;
 }
 .block_36{
     width: 70%;
@@ -884,14 +909,13 @@ html, body {
 }
 .img_36{
     height: 360px;
+    width: 29vw;
 }
-
-
 
 #page6{
     min-height: 100vh;
     width: 100%;
-    background-color: #a5a5a5;
+    background-color: #ff7300;
     padding: 4vw 4vw;
 }
 #page6 h1{
@@ -900,7 +924,7 @@ html, body {
     font-size: 10vw;
 }
 #page6 h2{
-    color: rgb(70, 70, 70);
+    color: rgb(255, 255, 255);
     font-family: modern;
     font-size: 4vw;
     line-height: 0vw;
@@ -941,6 +965,424 @@ html, body {
     font-size: 1vw;
     font-family: neuelit;
     color: rgb(0, 0, 0);
+}
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        margin-right: 20px;
+    }
+    #ajlogo{
+        height: 130px;
+        width: 120px;
+    }
+    #loader h1{
+        font-size: 90px;
+    }
+    #page1{
+        
+    }
+
+    #center{
+        height: 80vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        padding-bottom: 2vw;
+    }
+    #abhinav{
+        height: 70vh;
+        width: 90vw;
+        margin-top: -2.5vh;
+        margin-left: 0;
+        z-index: 100;
+    }
+    #right h3{
+        font-family: modern;
+        color: white;
+        text-align: center;
+        font-size: 7vw;
+        line-height: 5vw;
+        top: -15vh;
+        position: relative;
+        z-index: 9;
+    }
+    #right h4{
+        font-family: modern;
+        text-align: center;
+        font-size: 4.2vw;
+        top: -12vh;
+        color: #9f9f9f;
+        padding-bottom: 14vw;
+        position: relative;
+        z-index: 9;
+    }
+    #bottom h1{
+        font-size: 10vw;
+    }
+    #gola{
+        height: 2.5vh;
+        width:5vw;
+    }
+
+    #aboutme h1{
+        font-size: 20vw;
+    }
+
+    #stilltext{
+        line-height: 5vh;
+    }
+
+    .p5{
+        font-size: 10vw;
+    }
+    .p6{
+        font-size: 10vw;
+    }
+    .p7{
+        font-size: 10vw;
+    }
+    .p8{
+        font-size: 10vw;
+    }
+    .p9{
+        font-size: 10vw;
+    }
+    .p10{
+        font-size: 10vw;
+    }
+    .p11{
+        font-size: 3.5vw;
+        padding-top: 42vh;
+        line-height: 1.7vh;
+    }
+    
+    #page3 h1{
+        font-size: 10vw;
+    }
+    #page3 h3{
+        font-size: 5vw;
+    }
+
+    .capsitech{
+        margin-top: 10vh;
+        padding-bottom:.1vw ;
+        border-width: 2px;
+        border-radius: 40px;
+        border-color: red;
+        border-style: solid;
+        height: 45px;
+        width: 150px;
+        background-color: black;
+        color: red;
+        font-size: 6vw;
+        font-weight: 200;
+        font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        transition:box-shadow 0.3s;
+    }
+    .certificate{
+        margin-top: 10px;
+        margin-left: 0;
+        border-width: 2px;
+        border-radius: 40px;
+        border-color: red;
+        border-style: solid;
+        height: 45px;
+        width: 250px;
+        background-color: black;
+        color: red;
+        font-weight: 200;
+        font-size: 6vw;
+        font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        transition:box-shadow 0.3s;
+    }
+
+    #page4 h1{
+        font-size: 20vw;
+    }
+
+    #page4 h3{
+        font-size: 10vw;
+    }
+
+    #page4{
+        min-height: 100vh;
+        width: 100%;
+        background-color: #a5a5a5;
+        padding: 2vw 4vw;
+    }
+
+    .sticky_parent{
+        height: 400vh;
+    }
+    .sticky{
+        overflow: hidden;
+        position: sticky;
+        top:10vh;
+        height: 100vh;
+    }
+    .scroll_section{
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 400vw;
+        will-change: transform;
+        display: flex;
+        padding: 2vw 0vw;
+    }
+    #project1{
+        width: 24%;
+        border-right: 1.3px solid rgb(85, 85, 85);
+    }
+    #project1 h1{
+        padding-left: 2vw;
+        font-size: 20vw;
+        font-family: "Amatic SC", sans-serif;
+        color: white;
+    }
+    #project1 h3{
+        padding-top: 2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        font-size: 5vw;
+        color: #3b3b3b;
+        font-family: modern;
+    }
+    #button{
+        height: 8vh;
+        padding-left: 4vw;
+        padding-top: 4vw;
+        margin-top: 5vh;
+        padding-bottom: 1vw;
+        width: 100%;
+        background-color: #a5a5a5;
+        display: flex;
+    }
+    #button h4{
+        position: relative;
+        padding-top: 1.5vw;
+        padding-bottom: 4vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        border: 1px solid rgb(135, 135, 135);
+        border-radius: 50px;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        font-family: modern;
+        font-size: 5vw;
+        transition: all ease 0.5s;
+        overflow: hidden;
+    }
+    #button h4::after{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        left: 0;
+        bottom: -100%;
+        border-radius: 70%;
+        transition: all ease 0.5s;
+    }
+    #button h4:hover::after{
+        bottom: 0;
+        border-radius: 0;
+        
+    }
+    #button h4 a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        position: relative;
+        z-index: 9;
+    }
+    
+    #button h4:hover a{
+        color: rgb(0, 0, 0);
+    }
+    
+    
+    #project2{
+        width: 24%;
+        padding-left: 10px;
+        border-right: 1.3px solid rgb(85, 85, 85);
+    }
+    #project2 h1{
+        padding-left: 2vw;
+        font-size: 20vw;
+        font-family: "Amatic SC", sans-serif;
+        color: white;
+    }
+    #project2 h3{
+        padding-top: 2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        font-size: 5vw;
+        color: #3b3b3b;
+        font-family: modern;
+    }
+    #project3{
+        width: 24%;
+        padding-left: 10px;
+        border-right: 1.3px solid rgb(85, 85, 85);
+    }
+    #project3 h1{
+        padding-left: 2vw;
+        font-size: 18.7vw;
+        font-family: "Amatic SC", sans-serif;
+        color: white;
+    }
+    #project3 h3{
+        padding-top: 2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        font-size: 5vw;
+        color: #3b3b3b;
+        font-family: modern;
+    }
+    #project4{
+        width: 24%;
+        padding-left: 10px;
+    }
+    #project4 h1{
+        padding-left: 2vw;
+        font-size: 20vw;
+        font-family: "Amatic SC", sans-serif;
+        color: white;
+    }
+    #project4 h3{
+        padding-top: 2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        font-size: 5vw;
+        color: #3b3b3b;
+        font-family: modern;
+    }
+    .projectimg{
+        width: 80vw;
+        margin-left:4vw;
+        margin-top: 8vw;
+        border-radius: 20px;
+        box-shadow: 0 0 15px rgb(90, 90, 90);
+    }
+
+    #page5{
+        padding-bottom: 5vh;
+    }
+
+    .block_33_1{
+        display: block;
+        margin-top: 10vh;
+    }
+    .left_33{
+        flex: 2;
+        padding-right: 5vw;
+        text-align: right;
+        animation-name: fadeInLeft;
+        animation-timeline:view();
+        animation-range-start: cover;
+        animation-range-end: 700px;
+    }
+    .l_33_1{
+        color: rgb(147, 120, 216);
+        font-family: modern;
+        line-height: 5.5vh;
+        font-size: 50px;
+        font-weight: 900;
+        left: 0;
+    }
+    .button_33{
+        margin-top: 3vh;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        border-radius: 25px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    .button_33 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }  
+    .button_33 span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+    
+    .button_33:hover span {
+        padding-right: 25px;
+    }
+      
+    .button_33:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+    .right_33{
+        display: flex;
+        flex: 2;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+    .img_33{
+        margin-top: 3vh;
+        height: 30vh;
+        width: 90%;
+    }
+
+    #page6 h1{
+        padding-top: 5vh;
+        font-size: 22vw;
+        line-height: 8vh;
+    }
+
+    #page6 h2{
+        font-size: 10vw;
+        line-height: 4vh;
+        padding-top: 3vh;
+    }
+    #mail{
+        margin-top: -9px;
+        margin-right: -5px;
+        width: 12vw;
+        height: 6vh;
+    }
+    #insta{
+        width: 6.5vw;
+        height: 3vh;
+    }
+    #twitter{
+        width: 6.5vw;
+        height: 3vh;
+    }
+    #facebook{
+        width: 7vw;
+        height: 3.2vh;
+    }
+    #linkedin{
+        margin-top: -5px;
+        margin-left: -5px;
+        width: 11vw;
+        height: 5vh;
+    }
+
+    #thanks{
+        margin-top: 55vh;
+        font-size: 4.4vw;
+    }
 }
 
 
