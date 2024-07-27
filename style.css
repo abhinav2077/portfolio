@@ -996,7 +996,7 @@ html, body {
     }
     #abhinav{
         height: 85vh;
-        width: 90vw;
+        width: 100%;
         margin-top: -2.5vh;
         margin-left: 0;
         z-index: 100;
@@ -1067,7 +1067,7 @@ html, body {
     
     #page3 h1{
         padding-top: 5vh;
-        font-size: 10vh;
+        font-size: 8vh;
     }
     #page3 h3{
         padding-top: 2vh;
