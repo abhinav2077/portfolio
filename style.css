@@ -987,7 +987,7 @@ html, body {
     }
 
     #center{
-        height: 80vh;
+        height: 100vh;
         width: 100%;
         display: block;
         text-align: center;
@@ -995,7 +995,7 @@ html, body {
         padding-bottom: 2vw;
     }
     #abhinav{
-        height: 70vh;
+        height: 85vh;
         width: 90vw;
         margin-top: -2.5vh;
         margin-left: 0;
@@ -1021,8 +1021,11 @@ html, body {
         position: relative;
         z-index: 9;
     }
+    #bottom{
+        padding-top: 0vh;
+    }
     #bottom h1{
-        font-size: 10vw;
+        font-size: 80px;
     }
     #gola{
         height: 2.5vh;
@@ -1034,7 +1037,7 @@ html, body {
     }
 
     #stilltext{
-        line-height: 5vh;
+        line-height: 7vh;
     }
 
     .p5{
@@ -1056,20 +1059,23 @@ html, body {
         font-size: 10vw;
     }
     .p11{
-        font-size: 3.5vw;
+        font-size: 15px;
         padding-top: 42vh;
-        line-height: 1.7vh;
+        line-height: 2vh;
+        padding-bottom: 5vh;
     }
     
     #page3 h1{
-        font-size: 10vw;
+        padding-top: 5vh;
+        font-size: 10vh;
     }
     #page3 h3{
-        font-size: 5vw;
+        padding-top: 2vh;
+        font-size: 20px;
     }
 
     .capsitech{
-        margin-top: 10vh;
+        margin-top: 5vh;
         padding-bottom:.1vw ;
         border-width: 2px;
         border-radius: 40px;
@@ -1086,6 +1092,7 @@ html, body {
     }
     .certificate{
         margin-top: 10px;
+        margin-bottom: 5vh;
         margin-left: 0;
         border-width: 2px;
         border-radius: 40px;
@@ -1153,11 +1160,11 @@ html, body {
         font-family: modern;
     }
     #button{
-        height: 8vh;
-        padding-left: 4vw;
-        padding-top: 4vw;
+        height: 68px;
+        padding-left: 10px;
+        padding-top: 15px;
         margin-top: 5vh;
-        padding-bottom: 1vw;
+        padding-bottom: 5px;
         width: 100%;
         background-color: #a5a5a5;
         display: flex;
@@ -1289,7 +1296,7 @@ html, body {
     .l_33_1{
         color: rgb(147, 120, 216);
         font-family: modern;
-        line-height: 5.5vh;
+        line-height: 6.2vh;
         font-size: 50px;
         font-weight: 900;
         left: 0;
@@ -1346,12 +1353,12 @@ html, body {
     #page6 h1{
         padding-top: 5vh;
         font-size: 22vw;
-        line-height: 8vh;
+        line-height: 10vh;
     }
 
     #page6 h2{
         font-size: 10vw;
-        line-height: 4vh;
+        line-height: 5vh;
         padding-top: 3vh;
     }
     #mail{
@@ -1384,5 +1391,4 @@ html, body {
         font-size: 4.4vw;
     }
 }
-
 
