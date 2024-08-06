@@ -1171,8 +1171,8 @@ html, body {
     }
     #button h4{
         position: relative;
-        padding-top: 1.5vw;
-        padding-bottom: 4vw;
+        padding-top: 4px;
+        padding-bottom: 30px;
         padding-left: 4vw;
         padding-right: 4vw;
         border: 1px solid rgb(135, 135, 135);
@@ -1180,7 +1180,7 @@ html, body {
         background-color: black;
         color: rgb(255, 255, 255);
         font-family: modern;
-        font-size: 5vw;
+        font-size: 22px;
         transition: all ease 0.5s;
         overflow: hidden;
     }
