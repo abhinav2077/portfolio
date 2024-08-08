@@ -943,14 +943,14 @@ html, body {
     height: 2vw;
     margin-top: 0.7vw;
 }
-#twitter{
+#vercel{
     margin-top: 0.6vw;
     width: 2.2vw;
     height: 2.2vw;
     border-radius: 7px;
     margin-left: 0.7vw;
 }
-#facebook{
+#github{
     width: 2.2vw;
     height: 2.2vw;
     margin-top: 0.5vw;
@@ -1371,11 +1371,11 @@ html, body {
         width: 6.5vw;
         height: 3vh;
     }
-    #twitter{
+    #vercel{
         width: 6.5vw;
         height: 3vh;
     }
-    #facebook{
+    #github{
         width: 7vw;
         height: 3.2vh;
     }
